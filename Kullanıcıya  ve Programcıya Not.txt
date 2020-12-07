@@ -1,15 +1,15 @@
-Moodle_Rapor_3 programı .Net Framework 4.0 veya daha üst bir versiyon yüklü ise çalışır.
+Moodle_Rapor_3 programÄ± .Net Framework 4.0 veya daha Ã¼st bir versiyon yÃ¼klÃ¼ ise Ã§alÄ±ÅŸÄ±r.
 
 
 
-Daha önceki Moodle_Rapor_2 programı öğrencilerin arasına dersin hocasını/hocalarını da ekliyordu. Böyle bir bug vardı programda.
-Bunun sebebi dersin hocasının admin tarafından öğrenci gibi eklenip daha sonradan rölünün değiştirilmesiydi. Program derse eklenmiş öğrencileri
-derse başka biri tarafından eklenmiş olmaları özelliği ile buluyordu. Bu durumda dersin hocalarının da ilk eklenişi öğrenciler gibi başka biri
-tarafından olması bu hataya sebep oluyordu. Bilgisayar Müh. bölümünde herkes bölümün bütün derslerinin maderatörü olduğu için yani öğrenciler
-gibi eklenmedikleri için bu durum öngörülemedi.
+Daha Ã¶nceki Moodle_Rapor_2 programÄ± Ã¶ÄŸrencilerin arasÄ±na dersin hocasÄ±nÄ±/hocalarÄ±nÄ± da ekliyordu. BÃ¶yle bir bug vardÄ± programda.
+Bunun sebebi dersin hocasÄ±nÄ±n admin tarafÄ±ndan Ã¶ÄŸrenci gibi eklenip daha sonradan rÃ¶lÃ¼nÃ¼n deÄŸiÅŸtirilmesiydi. Program derse eklenmiÅŸ Ã¶ÄŸrencileri
+derse baÅŸka biri tarafÄ±ndan eklenmiÅŸ olmalarÄ± Ã¶zelliÄŸi ile buluyordu. Bu durumda dersin hocalarÄ±nÄ±n da ilk ekleniÅŸlerinin -Ã¶ÄŸrenciler gibi- baÅŸka biri
+tarafÄ±ndan olmasÄ± bu hataya sebep oluyordu. Bilgisayar MÃ¼h. bÃ¶lÃ¼mÃ¼nde herkes bÃ¶lÃ¼mÃ¼n bÃ¼tÃ¼n derslerinin maderatÃ¶rÃ¼ olduÄŸu iÃ§in yani Ã¶ÄŸrenciler
+gibi eklenmedikleri iÃ§in bu durum Ã¶ngÃ¶rÃ¼lemedi.
 
-Evet program yine öğrencileri başka biri tarafından eklenmeleri özelliğine dayanarak tespit ediyor fakat bu sefer küçük bir filtre uyguluyor.
-Dersin hocalarının numaraları rakam içermiyor dolayısı ile bu özelliklerine yönelik bir filtre uygulanarak dersin hocaları ile öğrencilerini
-birbirinden ayırıyoruz.
+Evet program yine Ã¶ÄŸrencileri baÅŸka biri tarafÄ±ndan eklenmeleri Ã¶zelliÄŸine dayanarak tespit ediyor fakat bu sefer kÃ¼Ã§Ã¼k bir filtre uyguluyor.
+Dersin hocalarÄ±nÄ±n numaralarÄ± rakam iÃ§ermiyor dolayÄ±sÄ± ile bu Ã¶zelliklerine yÃ¶nelik bir filtre uygulanarak dersin hocalarÄ± ile Ã¶ÄŸrencilerini
+birbirinden ayÄ±rÄ±yoruz.
 
-Moodle_Rapor_3 programında yukarıdaki yöntem ile söz konusu durum çözülmüştür.
+Moodle_Rapor_3 programÄ±nda yukarÄ±daki yÃ¶ntem ile sÃ¶z konusu durum Ã§Ã¶zÃ¼lmÃ¼ÅŸtÃ¼r.
